@@ -1,7 +1,7 @@
 {
-    "juzhudi":"中校区",
-    "dorm_building":"4",
-    "dorm":"302",
+    "juzhudi":"东校区",
+    "dorm_building":"5号楼",
+    "dorm":"907",
     "body_condition": "1",
     "body_condition_detail": "",
     "now_status": "1",
@@ -12,8 +12,8 @@
     "last_touch_sars_detail": "",
     "is_danger":"0",
     "is_goto_danger":"0",
-    "jinji_lxr": "Yichang Xu",
-    "jinji_guanxi": "self",
-    "jiji_mobile": "13233131808",
+    "jinji_lxr": "范萍",
+    "jinji_guanxi": "母亲",
+    "jiji_mobile": "13325919169",
     "other_detail": ""
 }
