@@ -119,3 +119,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Kobe972/USTC-ncov-AutoReport.svg)](https://starchart.cc/Kobe972/USTC-ncov-AutoReport)
