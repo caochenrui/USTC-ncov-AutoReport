@@ -1,11 +1,7 @@
 {
-    "juzhudi":"东校区",
-    "dorm_building":"5号楼",
-    "dorm":"907",
+    "juzhudi":"浙江省杭州市余杭区",
     "body_condition": "1",
     "body_condition_detail": "",
-    "now_status": "1",
-    "now_status_detail": "",
     "has_fever": "0",
     "last_touch_sars": "0",
     "last_touch_sars_date": "",
