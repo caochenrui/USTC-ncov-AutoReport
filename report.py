@@ -36,6 +36,8 @@ class Report(object):
                 flag=True
             headers={
                 'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39'}
+
+            '''
             url = "https://weixine.ustc.edu.cn/2020/upload/xcm" #上传两码
             data=login.session.get(url,headers=headers).text
             data = data.encode('ascii','ignore').decode('utf-8','ignore')
@@ -44,13 +46,10 @@ class Report(object):
             data=data.replace("_token","'token'")
             data=data.replace("'",'"')
             data=json.loads(data)
-
             data['t']='1' #1是上传行程码，2是上传健康码，3是上传核酸检测报告
             data['id']='WU_FILE_0'
             file={'file':open('trace.png','rb')}
             login.session.post('https://weixine.ustc.edu.cn/2020img/api/upload_for_student',headers=headers,data=data,files=file)
-
-            '''
             data['t']='2'
             file={'file':open('safe.png','rb')}
             login.session.post('https://weixine.ustc.edu.cn/2020img/api/upload_for_student',headers=headers,data=data,files=file)     
